@@ -1,4 +1,7 @@
-## Week 1 (02/25/2020-03/02/2020)
+# WSB ML Project
+## Anish Yakkala, Adrien Chaussabel, Lemar Popal
+
+### Week 1 (02/25/2020-03/02/2020)
 
 - Get Data
 - Scrape Tickers of WSB Comment Data
