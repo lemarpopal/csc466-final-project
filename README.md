@@ -14,6 +14,7 @@
   ![TESLA](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/TESLA_sell_volume.png)
 - Join historical financial data to the comment history
   - Join on `Date` Column.
+- Leverage Sentiment Analysis Algorithm from https://github.com/theriley106/TheWSBIndex
 
 Presentation Link:
 
