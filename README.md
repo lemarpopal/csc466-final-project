@@ -1,6 +1,8 @@
 # WSB ML Project
 ## Anish Yakkala, Adrien Chaussabel, Lemar Popal
 
+Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
+
 ### Week 1 (02/25/2020-03/02/2020)
 
 - Get Data
