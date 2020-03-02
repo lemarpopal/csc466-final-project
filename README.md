@@ -10,6 +10,8 @@
   - Use regex on `body` column of WSB comments dataset and explode list of tickers to get datasets for specific tickers
 - Work on EDA for WSB Comment Data
   - Focusing on TSLA, and making code reproducible to do this with other tickers
+  - Sell Mentions seem to fit nicely to Volume 
+  ![TESLA](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/TESLA_sell_volume.png)
 - Join historical financial data to the comment history
   - Join on `Date` Column.
 
