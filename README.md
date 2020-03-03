@@ -1,4 +1,7 @@
+![](https://img.shields.io/badge/Anish-Approved-brightgreen.svg)
+
 # WSB ML Project
+
 ## Anish Yakkala, Adrien Chaussabel, Lemar Popal
 
 Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
