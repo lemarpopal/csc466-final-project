@@ -24,6 +24,6 @@ Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
 - Possible ML idea
   - Based on past open and close prices, WSB comments, and today's open price for stocks predict the closing price. This will provide a good strategy whether to buy the stock and sell before after-hours.
 
-Presentation Link:
+###  Presentation Link:
 
 https://docs.google.com/presentation/d/13kG7TohxFgR38zHCjTAdx-rxu92opvpIMzdI3tGLogI/edit?usp=sharing
