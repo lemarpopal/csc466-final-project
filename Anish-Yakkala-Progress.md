@@ -14,3 +14,5 @@
 - Join historical financial data to the comment history
   - Join on `Date` Column.
 - Leverage Sentiment Analysis Algorithm from https://github.com/theriley106/TheWSBIndex
+- Factorize all my functions in the Sentiment Analysis to make it completely reproducible for any ticker
+- Begin thinking of what ML models we will be using on our data with Financial Action indicator columns and historical stock data
