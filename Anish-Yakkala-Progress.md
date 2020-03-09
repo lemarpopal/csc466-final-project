@@ -21,7 +21,8 @@
 ### Week 2 (3/03/2020 - 3/10/2020)
 
 - Expand on the Sentiment Analysis Alogrithm from https://github.com/theriley106/TheWSBIndex
-- Look at how upvote history fits with various features corresponding to financial movement
+- Looked at how upvote history fits with various features corresponding to financial movement
+![score_vs_volume](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/volume_vs_score.png)
 - Made a simple Exponential Moving Average Algorithm to fit onto our data
 ![moving_average](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/Exponential_Moving_Average.png)
 - Fit a LSTM model onto our dataset with the features derived from the Sentiment Analysis Algorithm. (Focused on TSLA)
