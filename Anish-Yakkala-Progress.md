@@ -16,3 +16,15 @@
 - Leverage Sentiment Analysis Algorithm from https://github.com/theriley106/TheWSBIndex
 - Factorize all my functions in the Sentiment Analysis to make it completely reproducible for any ticker
 - Begin thinking of what ML models we will be using on our data with Financial Action indicator columns and historical stock data
+
+
+### Week 2 (3/03/2020 - 3/10/2020)
+
+- Expand on the Sentiment Analysis Alogrithm from https://github.com/theriley106/TheWSBIndex
+- Look at how upvote history fits with various features corresponding to financial movement
+- Made a simple Exponential Moving Average Algorithm to fit onto our data
+![moving_average](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/Exponential_Moving_Average.png)
+- Fit a LSTM model onto our dataset with the features derived from the Sentiment Analysis Algorithm. (Focused on TSLA)
+![first_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/first_attempt_lstm.png)
+- Working on hypertuning the features for LSTM to reduce RMSE as much as we can
+
