@@ -23,6 +23,18 @@ Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
 
 - Possible ML idea
   - Based on past open and close prices, WSB comments, and today's open price for stocks predict the closing price. This will provide a good strategy whether to buy the stock and sell before after-hours.
+  
+### Week 2 (3/03/2020 - 3/10/2020)
+
+- Expand on the Sentiment Analysis Alogrithm from https://github.com/theriley106/TheWSBIndex
+- Looked at how upvote history fits with various features corresponding to financial movement
+![score_vs_volume](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/volume_vs_score.png)
+- Made a simple Exponential Moving Average Algorithm to fit onto our data
+![moving_average](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/Exponential_Moving_Average.png)
+- Fit a LSTM model onto our dataset with the features derived from the Sentiment Analysis Algorithm. (Focused on TSLA)
+![first_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/first_attempt_lstm.png)
+- Working on hypertuning the features for LSTM to reduce RMSE as much as we can
+- Look at using the Pushshift API for more Reddit comments
 
 ###  Presentation Link:
 
