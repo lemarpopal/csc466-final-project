@@ -35,3 +35,5 @@
 
 ![ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/y_vs_yhat.png)
 
+![full_ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/fully_vs_yhat.png)
+
