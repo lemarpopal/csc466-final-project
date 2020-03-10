@@ -28,4 +28,10 @@
 - Fit a LSTM model onto our dataset with the features derived from the Sentiment Analysis Algorithm. (Focused on TSLA)
 ![first_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/first_attempt_lstm.png)
 - Working on hypertuning the features for LSTM to reduce RMSE as much as we can
+  - Second Pass reduced RMSE!
+  
+![second_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/second_attempt_lstm.png)
+- Did a Y Test vs Y Pred
+
+![ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/y_vs_yhat.png)
 
