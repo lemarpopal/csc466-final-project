@@ -35,6 +35,14 @@ Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
 ![first_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/first_attempt_lstm.png)
 - Working on hypertuning the features for LSTM to reduce RMSE as much as we can
 - Look at using the Pushshift API for more Reddit comments
+- Working on hypertuning the features for LSTM to reduce RMSE as much as we can
+  - Second Pass reduced RMSE!
+  
+![second_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/second_attempt_lstm.png)
+- Did a Y Test vs Y Pred
+
+![ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/y_vs_yhat.png)
+
 
 ###  Presentation Link:
 
