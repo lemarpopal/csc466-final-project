@@ -43,9 +43,6 @@ Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
 
 ![ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/y_vs_yhat.png)
 
-So turns out that I made a mistake in the LSTM code that made the feature a response ... :( I was so happy about the results
-
-
 ###  Presentation Link:
 
 https://docs.google.com/presentation/d/13kG7TohxFgR38zHCjTAdx-rxu92opvpIMzdI3tGLogI/edit?usp=sharing
