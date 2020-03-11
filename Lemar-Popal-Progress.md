@@ -15,4 +15,6 @@ I chose to use the comment body as a feature because I thought the text  could h
 
 As for results, after cross validating the decision tree model had a RMSE of about 66. This means that it was about $66 off on average on stock price predictions. Obviosuly this is not a very good result because, on an average day, Tesla stock fluctuates much less than that. I also tried a Random Forest model and arbitrarily chose to use n_trees=200. However, the model took a prohibitively long amount of time to run and I anticipate it won't do much better than the decision tree. Perhaps a little better if I do some hyperparameter tuning (like a random grid search). 
 
-Also, 
+Also, until this point I haven't talked about whether DT or RF are the *correct* models to use for the data we have. In fact they aren't, that's why I said they were naive models at the beginning. This is time series data where the price of a stock on a particular day is a function of the previous prices of the stock on past days. It doesn't just depend on the text of a comment or other features. 
+
+Anish worked on creating an LSTM model which uses neural networks and is good for time-series forecasting. As expected, he got much better results for predicting the next day's stock price (RMSE of about $14). I'll try and work with Anish to see if we can predict stock prices for days farther out and see if it's better than an exponential moving average model. 
