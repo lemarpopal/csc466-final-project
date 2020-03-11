@@ -31,7 +31,6 @@ Download dataset from https://www.kaggle.com/theriley106/wallstreetbetscomments
 ![score_vs_volume](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/volume_vs_score.png)
 - Made a simple Exponential Moving Average Algorithm to fit onto our data
 ![moving_average](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/Exponential_Moving_Average.png)
-__NOTE: BELOW SECTION RESULTS ARE DUE TO A MISTAKE IN OUR CODE (KEEPING IT IN BECAUSE IT SHOWS HOW GOOD BUT BAD OVERFITTING IS)__
 - Fit a LSTM model onto our dataset with the features derived from the Sentiment Analysis Algorithm. (Focused on TSLA)
 ![first_pass](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/first_attempt_lstm.png)
 - Working on hypertuning the features for LSTM to reduce RMSE as much as we can
@@ -43,18 +42,6 @@ __NOTE: BELOW SECTION RESULTS ARE DUE TO A MISTAKE IN OUR CODE (KEEPING IT IN BE
 - Did a Y Test vs Y Pred
 
 ![ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/y_vs_yhat.png)
-
-So turns out that I made a mistake in the LSTM code that made the feature a response ... :( I was so happy about the results
-
-__This is the results after I fixed it__
-
-![sad_results](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/sad_results.png)
-
-![sad](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/sad_y_vs_yhat.png)
-
-![sad_full_graph](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/sad_full_y_vs_yhat.png)
-
-
 
 ###  Presentation Link:
 
