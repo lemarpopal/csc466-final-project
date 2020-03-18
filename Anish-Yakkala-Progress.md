@@ -46,5 +46,6 @@
 - Transforming LSTM_wsb into the final report
 - Attempted to integrate push shift comments
 - Realized that our comment data was not helping to the model. EMA and LTSM just on the stock data was doing much better than the models that integrated stock data. This is fair considering that these are just forum data on a huge subreddit with people giving many different thoughts, which themself can be reactionary.
+- Worked on presentation slides
 
 
