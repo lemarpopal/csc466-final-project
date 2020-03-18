@@ -37,3 +37,4 @@
 
 ![full_ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/fully_vs_yhat.png)
 
+- Read more about how LSTM works and how it predicts. This was a big point of confusion for me.

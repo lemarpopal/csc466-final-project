@@ -11,4 +11,8 @@ This week I spent a lot of time pulling current comments from /r/wallstreetbets 
 
 I DM'd the creator of the API on Reddit but he has yet to respond to me so we'll see if I can figure that out.
 
-I also pulled 6 months of Reddit comments from 2019 so we have another set of data to train/test on. Eventually we want to pull live(ish) data from Pushshift so that we can maybe try to predict near future stock prices (we'll see how succesful we are with this given the current market volatility)
+I also pulled 6 months of Reddit comments from 2019 so we have another set of data to train/test on. Eventually we want to pull live(ish) data from Pushshift so that we can maybe try to predict near future stock prices (we'll see how succesful we are with this given the current market volatility). Then I uploaded the dataset to [Kaggle](https://www.kaggle.com/adrienchaussabel/wall-street-bets-comments-from-jan1-to-jun2) (Upvote pls)
+
+## Week 3
+
+I helped Lemar on the Naive ML methods where we tried out a Decision Tree, Random Forest, and Gradient Boost (XGBoost). We picked these methods because these are methods we implemented in class, so we know exactly how they work. We found little success in these methods with some pretty abysmal RMSE but it gives us a baseline for Anish's much better model which is specifically designed for this type of work.
