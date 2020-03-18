@@ -21,3 +21,7 @@ Anish worked on creating an LSTM model which uses neural networks and is good fo
 
 ### Week 3 (03/11/2020-03/18/2020)
 This week I got the Random Forest Regressor to work because I found out I had to limit the number of estimators and the max depth of the tree. After changing both those values to 10 it only took about a minute to complete a 10-fold cross validation. The RMSE was about $55, a decent improvement over the decision tree regressor. However, still much higher than the average change in Tesla's stock price per day (about $8.40). A grid search that varied some of the RF parameters did not yield much better results. 
+
+As for the LSTM model, we found that it does not do nearly as well as the Exponential Moving Average model (EMA). The EMA The EMA is the sum of the stock's closing prices for the number of time periods in question, divided by that same number of periods, with greater weight and significance on the most recent stock prices. The EMA model had an RMSE of about 0.034 for predicting the next day's stock price. However, the EMA is usually *best* at predicting the next day's prices. It doesn't do as well for predicting farther out. 
+
+We also found out that the LSTM does better *without* the comment data and just using the previous days' stock prices. The next thing we wanted to do was find out how much better LSTM does at predicting farther out prices versus the EMA. 
