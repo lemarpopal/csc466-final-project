@@ -38,3 +38,13 @@
 ![full_ytest_ypred](https://github.com/Anderson-Lab/final-project-dennis-sun/blob/master/images/fully_vs_yhat.png)
 
 - Read more about how LSTM works and how it predicts. This was a big point of confusion for me.
+
+### Week 3 (3/10/2020-3/17/2020)
+
+- Work on Mix Max scaling for the LSTM and EMA models. 
+- Worked on comparing LSTM model with our text data vs LSTM
+- Transforming LSTM_wsb into the final report
+- Attempted to integrate push shift comments
+- Realized that our comment data was not helping to the model. EMA and LTSM just on the stock data was doing much better than the models that integrated stock data. This is fair considering that these are just forum data on a huge subreddit with people giving many different thoughts, which themself can be reactionary.
+
+
