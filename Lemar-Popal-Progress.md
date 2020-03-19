@@ -19,9 +19,13 @@ Also, until this point I haven't talked about whether DT or RF are the *correct*
 
 Anish worked on creating an LSTM model which uses neural networks and is good for time-series forecasting. As expected, he got much better results for predicting the next day's stock price (RMSE of about $14). I'll try and work with Anish to see if we can predict stock prices for days farther out and see if it's better than an exponential moving average model. 
 
-### Week 3 (03/11/2020-03/18/2020)
+### Week 3 (03/11/2020-03/17/2020)
 This week I got the Random Forest Regressor to work because I found out I had to limit the number of estimators and the max depth of the tree. After changing both those values to 10 it only took about a minute to complete a 10-fold cross validation. The RMSE was about $55, a decent improvement over the decision tree regressor. However, still much higher than the average change in Tesla's stock price per day (about $8.40). A grid search that varied some of the RF parameters did not yield much better results. 
 
 As for the LSTM model, we found that it does not do nearly as well as the Exponential Moving Average model (EMA). The EMA The EMA is the sum of the stock's closing prices for the number of time periods in question, divided by that same number of periods, with greater weight and significance on the most recent stock prices. The EMA model had an RMSE of about 0.034 for predicting the next day's stock price. However, the EMA is usually *best* at predicting the next day's prices. It doesn't do as well for predicting farther out. 
 
-We also found out that the LSTM does better *without* the comment data and just using the previous days' stock prices. The next thing we wanted to do was find out how much better LSTM does at predicting farther out prices versus the EMA. 
+We also found out that the LSTM does better *without* the comment data and just using the previous days' stock prices. For predicting the next day's stock price it does just about as well as the EMA. 
+
+The next thing we wanted to do was find out how much better LSTM does at predicting farther out prices versus the EMA. However we found out that to predict more than one day out, for example three days, we had to predict tomorrow's price, then using that prediction along with the past to predict the day after tomorrow, and then using that prediction again to predict the price next day. This compounded the error in our model at each step and it did not do very well at all. We decided to focus on just predicting the next day's stock prices using only stock data. 
+
+So in summary this means that comments on Wall Street Bets are not useful at all for predicting future stock prices (at least for Tesla). In fact they hurt the model's performance rather than help. Perhaps if we had more processing power and time we could run this analysis on other stocks besides Tesla and see if WSB is good at predicting any other stock (if at all).
