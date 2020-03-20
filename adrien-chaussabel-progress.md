@@ -16,3 +16,5 @@ I also pulled 6 months of Reddit comments from 2019 so we have another set of da
 ## Week 3
 
 I helped Lemar on the Naive ML methods where we tried out a Decision Tree, Random Forest, and Gradient Boost (XGBoost). We picked these methods because these are methods we implemented in class, so we know exactly how they work. We found little success in these methods with some pretty abysmal RMSE but it gives us a baseline for Anish's much better model which is specifically designed for this type of work.
+
+I also worked on our final presentation and added most of the new slides with all the visuals. I worked on getting writing up what methods we used and the results we obtained.
